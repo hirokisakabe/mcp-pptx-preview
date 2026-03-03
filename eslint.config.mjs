@@ -9,5 +9,5 @@ export default tseslint.config(
   eslintConfigPrettier,
   {
     ignores: ["dist/"],
-  }
+  },
 );

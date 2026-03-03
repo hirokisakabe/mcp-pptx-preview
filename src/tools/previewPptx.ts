@@ -20,6 +20,6 @@ export function registerPreviewPptxTool(server: McpServer): void {
           text: result.svg,
         })),
       };
-    }
+    },
   );
 }
