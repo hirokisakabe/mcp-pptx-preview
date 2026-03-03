@@ -10,10 +10,12 @@ PPTX ファイルを SVG プレビューに変換する MCP (Model Context Proto
 
 - `npm run build` — TypeScript コンパイル (`tsc`)
 - `npm start` — サーバー起動 (`node dist/index.js`)
+- `npm run format` — Prettier でコードフォーマット
+- `npm run format:check` — フォーマットチェック
 - `npm run lint` — ESLint 実行
 - `npm run typecheck` — 型チェック (`tsc --noEmit`)
 
-テストフレームワークは未導入。品質チェックは `npm run lint` と `npm run typecheck` で行う。
+テストフレームワークは未導入。品質チェックは `npm run format:check`、`npm run lint`、`npm run typecheck` で行う。
 
 ## アーキテクチャ
 
